@@ -1,0 +1,103 @@
+:root {
+  --main-font: "Montserrat", sans-serif;
+  --hard-background: #282828;
+  --light-bacground: #e6e3c4;
+  --broun-background: #998431;
+  --white: #ffffff;
+}
+
+/* ------Hide Headers------ */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.visually-hidden-new {
+  font-size: 0;
+  margin: 0;
+}
+/* ------End Hide Headers------ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  font-weight: 400;
+  font-family: var(--main-font);
+  margin: 0;
+  background-color: var(--hard-background);
+  color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contacts {
+  font-weight: 500;
+  font-size: 13px;
+  color: inherit;
+  line-height: 1.5;
+}
+
+.navigation {
+  font-size: 14px;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: inherit;
+  background-color: var(--broun-background);
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.section-title {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.presentation-descr {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.footer-contacts {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: inherit;
+}
